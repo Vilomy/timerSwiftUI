@@ -1,4 +1,4 @@
-//
+// материал взят с https://www.youtube.com/watch?v=TXhxV9b5vS8
 //  ContentView.swift
 //  TimerSwiftUI
 //
