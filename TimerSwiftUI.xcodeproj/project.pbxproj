@@ -13,6 +13,8 @@
 		34625E1024FA5CFE00C6F9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34625E0F24FA5CFE00C6F9C9 /* Assets.xcassets */; };
 		34625E1324FA5CFE00C6F9C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34625E1224FA5CFE00C6F9C9 /* Preview Assets.xcassets */; };
 		34625E1624FA5CFE00C6F9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34625E1424FA5CFE00C6F9C9 /* LaunchScreen.storyboard */; };
+		34625E1E24FA5D2700C6F9C9 /* TimerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34625E1D24FA5D2700C6F9C9 /* TimerMode.swift */; };
+		34625E2024FA63BD00C6F9C9 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34625E1F24FA63BD00C6F9C9 /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		34625E1224FA5CFE00C6F9C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34625E1524FA5CFE00C6F9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34625E1724FA5CFE00C6F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34625E1D24FA5D2700C6F9C9 /* TimerMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerMode.swift; sourceTree = "<group>"; };
+		34625E1F24FA63BD00C6F9C9 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		34625E0824FA5CFD00C6F9C9 /* TimerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				34625E1D24FA5D2700C6F9C9 /* TimerMode.swift */,
 				34625E0924FA5CFD00C6F9C9 /* AppDelegate.swift */,
 				34625E0B24FA5CFD00C6F9C9 /* SceneDelegate.swift */,
 				34625E0D24FA5CFD00C6F9C9 /* ContentView.swift */,
+				34625E1F24FA63BD00C6F9C9 /* TimerManager.swift */,
 				34625E0F24FA5CFE00C6F9C9 /* Assets.xcassets */,
 				34625E1424FA5CFE00C6F9C9 /* LaunchScreen.storyboard */,
 				34625E1724FA5CFE00C6F9C9 /* Info.plist */,
@@ -146,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34625E0A24FA5CFD00C6F9C9 /* AppDelegate.swift in Sources */,
+				34625E2024FA63BD00C6F9C9 /* TimerManager.swift in Sources */,
 				34625E0C24FA5CFD00C6F9C9 /* SceneDelegate.swift in Sources */,
 				34625E0E24FA5CFD00C6F9C9 /* ContentView.swift in Sources */,
+				34625E1E24FA5D2700C6F9C9 /* TimerMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
